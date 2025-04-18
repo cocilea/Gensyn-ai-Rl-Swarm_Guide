@@ -44,11 +44,17 @@ python3 --version
 # Install Node.js , npm & yarn
 
 * For **Linux/Wsl**
-
+[1]
 ```
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - && sudo apt update && sudo apt install -y nodejs
 ```
 
+Another[2]
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+nvm install 18
+```
 * Install Yarn (linux)
 
 ```

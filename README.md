@@ -138,6 +138,12 @@ yarn install
 yarn upgrade &&  yarn add next@latest &&  yarn add viem@latest
 ```
 
+Intall python requirement.txt
+```
+cd /rl_swarm
+pip install -r requirement.txt
+```
+
 * 6️⃣ Run the swarm Node 🚀
 
 ```
